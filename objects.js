@@ -44,3 +44,17 @@ console.log(aboutMe.hobbies);
 console.log(aboutMe.hair); // returns "black and white and brown"
 delete aboutMe.hair;
 console.log(aboutMe.hair); // returns undefined
+
+// array of objects
+const books = [
+    {
+        name: "kitaab",
+        price: 1000
+    },
+    {
+        name: "it ends with us",
+        price: 200
+    },
+];
+console.log(books[0]) // kitaab
+console.log(books[1]) // "it ends with us"

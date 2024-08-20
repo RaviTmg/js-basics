@@ -35,7 +35,7 @@ console.log(h);
 const i = addOne(2);
 console.log(i);
 
-//Default values 
+//Default values
 const addValue = (a, b = 10) => {
     return a + b;
 }
@@ -43,7 +43,7 @@ const addValue = (a, b = 10) => {
 console.log(addValue("20")) // Prints 20
 console.log(addValue(10, 20)) // prints 30
 
-console.log(addValue("20", undefined)); // Prints 2010 
+console.log(addValue("20", undefined)); // Prints 2010
 console.log(addValue("20", null)) // Prints 20null
 
 // ... rest operator
